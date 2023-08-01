@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1440px;
+    height: 1721px;
+}
+
+
+header {
+    margin: 80px 52px 48px 52px;
+    display: flex;
+    padding: 0px 52px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.Headtitle {
+    width: 716px;
+    gap: 4px;
+}
+
+header h1 {
+    color: #282828;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+
+}
+
+header h2 {
+    color: #282828;
+    text-align: center;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+header span {
+    color: #5F6980;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    width: 760px;
+    height: 70px;
+}
+
+.row1 {
+    display: flex;
+    margin: 0 52px 48px 52px;
+    justify-content: space-between;
+}
+
+.row2 {
+    display: flex;
+    margin: 0 52px 48px 52px;
+    justify-content: space-between;
+}
+
+.boxrow {
+    border: 1px solid #EAECF0;
+    background: #FFF;
+}
+
+.content {
+    margin: 16px 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 310px;
+    padding: 0px 16px;
+    align-items: flex-start;
+    gap: 24px;
+
+
+}
+
+.content .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title h3 {
+    color: #282828;
+    width: 278px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.title h4 {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3E3E59;
+    width: 278px;
+}
+
+.info p {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #5F6980;
+    width: 278px;
+}
+
+footer {
+    width: 1440px;
+    height: 512px;
+    padding: 108px 52px 181px 52px;
+    background-color: rgba(83, 83, 83, 0.33);
+}
+
+.mainfoot {
+    width: 1306px;
+    height: 223px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block1 {
+    width: 318.047px;
+    height: 221px;
+
+}
+.block1 p {
+    margin-top: 32px;
+    margin-bottom: 28px;
+    color: #535353;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 306.047px;
+height: 73px;
+}
+
+.logofoot {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.block2  {
+    width: 136px;
+    height: 223px;
+    
+}
+
+.block2 h1 {
+    color: #1E1E1E;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 71px ;
+}
+
+.block2 .contact{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.contact a {
+    color: #535353;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.block4 {
+    width: 107px;
+height: 127.45px;
+}
+
+.block4 h1 {
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 58.45px;
+}
+.block4 button {
+    width: 80px;
+    height: 45px;
+    padding: 14px, 16px, 14px, 16px;
+    background-color: #054A68;
+    color:#FFFFFF;
+}
